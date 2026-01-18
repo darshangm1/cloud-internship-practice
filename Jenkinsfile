@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
+git branch: 'main', url: 'https://github.com/darshangm1/cloud-internship-practice.git'
             }
         }
 
